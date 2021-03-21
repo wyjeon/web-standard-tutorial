@@ -633,13 +633,13 @@
   overflow: hidden;
   border-bottom: 1px solid #ccc;
 }
-.tab_menu li {
+.tab_menu ul li {
   float: left;
   border: 1px solid #ccc;
   margin-right: -1px;
   margin-bottom: -1px;
 }
-.tab_menu li a {
+.tab_menu ul li a {
   padding: 5px 10px;
   display: block;
 }

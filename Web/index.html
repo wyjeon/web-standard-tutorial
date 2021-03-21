@@ -733,7 +733,6 @@
         progressBar: true
       }); 
 
-
       //윈도우 팝업
       $(".window").click(function(e) {
         e.preventDefault();
@@ -770,7 +769,7 @@
           .parent("li")
           .addClass("active")
           .siblings("li")
-          .remove("active")
+          .removeClass("active")
           .find(">ul")
           .hide();
       }
