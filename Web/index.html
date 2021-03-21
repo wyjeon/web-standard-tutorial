@@ -671,5 +671,16 @@
       <!-- footer -->
     </div>
     <!-- wrap -->
+
+    <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+      // 버튼을 클릭하면 전체 메뉴를 보인다.
+      $(".tit .btn").click(function(e) {
+        e.preventDefault();
+        $("#cont_nav").slideToggle(200);
+        $(this).toggleClass("on");
+      });
+    </script>
   </body>
 </html>
